@@ -2,23 +2,23 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 2rem;
     color: #40514E;
 }
 
+/*************************** Nagłówki *****************************/
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     color: #66BFBF;
-    line-height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
-    font-weight: 7px;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -26,8 +26,13 @@ h3 {
     color: #11999E;
 }
 
+/*************************** Znaczniki *****************************/
 span {
     text-decoration: underline;
+}
+
+p {
+    line-height: 2;
 }
 
 a {
@@ -35,14 +40,20 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #EAF6F6;
+}
+
 hr {
     border: 10px;
     border-style: none;
     border-top-style: dotted;
     width: 5%;
-    color: #EAF6F6;
-    margin: 100px auto 100px auto;
+    color:#EAF6F6;
+    margin: 100px auto;
 }
+
+/*************************** CONTAINERS *****************************/
 
 .top-container {
     position: relative;
@@ -51,49 +62,59 @@ hr {
 }
 
 .middle-container {
-    padding: 100px 0 100px 0;
+    margin: 100px 0;
 }
 
 .bottom-container {
-    padding: 50px 0 10px 0;
+    padding: 50px 0 20px 0;
     background-color: #66BFBF;
 }
 
+
+/*************************** OTHER Containers *****************************/
 .title {
     margin-top: 20;
     text-align: center;
 }
 
-.profile {
-    margin: 100px auto 0 auto;
-    width: 40%;
-}
-
-.contact-me {
-    width: 50%;
+.intro {
+    width: 30%;
     margin: auto;
-}
-
-.photo-programist {
-    width: 30%;
-    float: left;
-    margin-right: 50px;
-}
-
-.photo-computer {
-    width: 30%;
-    float: right;
-    margin-left: 50px;
 }
 
 .skill-row {
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 100px auto 180px auto;
     text-align: left;
     line-height: 2;
 }
 
+.contact-message {
+    width: 30%;
+    margin: auto;
+}
 
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/*************************** photos *****************************/
+.photo-programist {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.photo-computer {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+/*************************** buttons *****************************/
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -121,11 +142,7 @@ hr {
     text-decoration: none;
 }
 
-
-.monkey {
-    color: #EAF6F6;
-}
-
+/*************************** ID *****************************/
 #right-cloud {
     position: absolute;
     top: 40px;
