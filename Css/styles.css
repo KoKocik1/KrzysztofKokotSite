@@ -34,14 +34,14 @@ span{
 }
 #right-cloud {
     position: absolute;
-    top: 10%;
-    right:20%;
+    top: 40px;
+    right:300px;
 }
 
 #left-cloud {
     position: absolute;
-    top: 40%;
-    left:20%;
+    top: 300px;
+    left:300px;
     
 }
 
